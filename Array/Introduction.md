@@ -22,35 +22,35 @@ This is because if you create an array by directly initializing its values, the 
 ## Types of Arrays
 ![](../Images/Array/types%20of%20array.png)
 ### One-Dimensional
-#### The simplest type of arrays, one-dimensional arrays, contains a single row of elements. These arrays are usually indexed from 0 to n-1, where ‘n’ is the size of the array. Utilizing its assigned index number, each element in an array can be conveniently accessed.
+ The simplest type of arrays, one-dimensional arrays, contains a single row of elements. These arrays are usually indexed from 0 to n-1, where ‘n’ is the size of the array. Utilizing its assigned index number, each element in an array can be conveniently accessed.
 
 ![](../Images/Array/one%20dim%20array.png)
 
 ### Two-Dimensional
-#### Two-dimensional array type are arrays that contain arrays of elements. These are also referred to as matrix arrays since they can be thought of as a grid that lays out the elements into rows and columns. Each element within the two-dimensional array can be accessed individually by its row and column location. This array type is useful for storing data such as tables or pictures, where each element may have multiple associated values.
+ Two-dimensional array type are arrays that contain arrays of elements. These are also referred to as matrix arrays since they can be thought of as a grid that lays out the elements into rows and columns. Each element within the two-dimensional array can be accessed individually by its row and column location. This array type is useful for storing data such as tables or pictures, where each element may have multiple associated values.
 ![](../Images/Array/two%20dim%20array.png)
 
 ### Multi-Dimensional
-#### Multi-Dimensional arrays are a powerful data structure used to store and manage data organizationally. This type of arrays consist of multiple arrays that are arranged hierarchically. They can have any number of dimensions, the most common being two dimensions (rows and columns), but three or more dimensions may also be used.
+ Multi-Dimensional arrays are a powerful data structure used to store and manage data organizationally. This type of arrays consist of multiple arrays that are arranged hierarchically. They can have any number of dimensions, the most common being two dimensions (rows and columns), but three or more dimensions may also be used.
 ![](../Images/Array/three%20dim.png)
 
 ## Basic Operations on Arrays
-#### Arrays are an important data structure used to store collections of data. Arrays can store multiple types of data, such as integers, strings, floats, and objects. There are several types of arrays in data structure:
+ Arrays are an important data structure used to store collections of data. Arrays can store multiple types of data, such as integers, strings, floats, and objects. There are several types of arrays in data structure:
 
 ### 1.Traversing
-##### Traversing arrays involves looping through each element in the array and processing each element one at a time. This allows you to access all array elements and perform tasks such as printing, copying, comparing, or sorting. Moreover, a Data Science Certificate Course can help you understand arrays and their applications.
+ Traversing arrays involves looping through each element in the array and processing each element one at a time. This allows you to access all array elements and perform tasks such as printing, copying, comparing, or sorting. Moreover, a Data Science Certificate Course can help you understand arrays and their applications.
 
 ### 2.Insertion
-##### Insertion is the process of adding new elements into an existing array. This can be done by providing an index for where the insertion should occur and then shifting other elements in the array to make space for the insertion.
+ Insertion is the process of adding new elements into an existing array. This can be done by providing an index for where the insertion should occur and then shifting other elements in the array to make space for the insertion.
 
 ### 3.Deletion
-##### Deletion is the opposite of insertion and involves removing elements from an existing array. After deleting an element, all other elements in the array must be shifted to fill any gaps left from deletion.
+#####existing array. After deleting an element, all other elements in the array must be shifted to fill any gaps left from deletion.
 
 ### 4.Searching
-##### Looking for something specific? Searching is the answer. It's a process of identifying an element from within an array by comparing it to your desired value until you find a match. There are two distinct types of searches: linear and binary search techniques, both offering varying degrees of efficiency when used correctly. Linear search compares each element one after another until a match is found or all elements have been searched.
+ Looking for something specific? Searching is the answer. It's a process of identifying an element from within an array by comparing it to your desired value until you find a match. There are two distinct types of searches: linear and binary search techniques, both offering varying degrees of efficiency when used correctly. Linear search compares each element one after another until a match is found or all elements have been searched.
 
 ### 5.Sorting
-##### Sorting is a process of arranging elements of an array in either ascending or descending order. Array sorting can be done using different algorithms like bubble sort, insertion sort, selection sort, and quick sort. Bubble sort swaps adjacent elements if they are not ordered correctly, while selection sort finds the smallest element and shifts it to the beginning.
+ Sorting is a process of arranging elements of an array in either ascending or descending order. Array sorting can be done using different algorithms like bubble sort, insertion sort, selection sort, and quick sort. Bubble sort swaps adjacent elements if they are not ordered correctly, while selection sort finds the smallest element and shifts it to the beginning.
 
 
 

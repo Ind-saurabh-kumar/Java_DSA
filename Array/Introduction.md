@@ -8,6 +8,9 @@ In computer programming, an array can help you locate and identify where you sto
 
 ![](../Images/Array/PrimitiveTypeArray.png)
 
+## Array class hierarchy
+![](../Images/Array/array%20class%20hir.png)
+
 
 ## What is an array's size?
 An array’s size can be crucial in programming. Software developers and computer programmers use coding programming language, or C language, in a lot of their work, and arrays contain a fixed-size amount of elements in C language. This means you're unable to expand or shrink an array because once you declare its elements, the software statistically allocates a designated amount of space for it.

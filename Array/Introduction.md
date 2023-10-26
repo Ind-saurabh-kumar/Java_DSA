@@ -6,24 +6,33 @@ An array is an arrangement of numbers, pictures or objects formatted into rows a
 
 In computer programming, an array can help you locate and identify where you stored each piece of data, or element, by adding an offset to each value. An offset is a number that represents the difference between the two indexes. Similar to an index in a book, an index in computer programming contains a record of entries with the names of the data items and their locations. Thus, you can identify each element and its location by referring to the index within the array.
 
+![](../Images/Array/PrimitiveTypeArray.png)
+
 
 ## What is an array's size?
 An array’s size can be crucial in programming. Software developers and computer programmers use coding programming language, or C language, in a lot of their work, and arrays contain a fixed-size amount of elements in C language. This means you're unable to expand or shrink an array because once you declare its elements, the software statistically allocates a designated amount of space for it.
 
 This is because if you create an array by directly initializing its values, the size of the array will be the exact number of elements you enter into it. If you remove or add an element, you're required to create a new array and enter the exact number of elements in your dataset.
 
-![](../Images/Array/PrimitiveTypeArray.png)
+![](../Images/Array/array%20size.png)
+
+
 
 
 ## Types of Arrays
+![](../Images/Array/types%20of%20array.png)
 ### One-Dimensional
 #### The simplest type of arrays, one-dimensional arrays, contains a single row of elements. These arrays are usually indexed from 0 to n-1, where ‘n’ is the size of the array. Utilizing its assigned index number, each element in an array can be conveniently accessed.
 
+![](../Images/Array/one%20dim%20array.png)
+
 ### Two-Dimensional
 #### Two-dimensional array type are arrays that contain arrays of elements. These are also referred to as matrix arrays since they can be thought of as a grid that lays out the elements into rows and columns. Each element within the two-dimensional array can be accessed individually by its row and column location. This array type is useful for storing data such as tables or pictures, where each element may have multiple associated values.
+![](../Images/Array/two%20dim%20array.png)
 
 ### Multi-Dimensional
 #### Multi-Dimensional arrays are a powerful data structure used to store and manage data organizationally. This type of arrays consist of multiple arrays that are arranged hierarchically. They can have any number of dimensions, the most common being two dimensions (rows and columns), but three or more dimensions may also be used.
+![](../Images/Array/three%20dim.png)
 
 ## Basic Operations on Arrays
 #### Arrays are an important data structure used to store collections of data. Arrays can store multiple types of data, such as integers, strings, floats, and objects. There are several types of arrays in data structure:
@@ -74,3 +83,9 @@ The most common mistakes when using arrays include:
 ## Array Initilization
 ![](./../Images/Array/array_init.png)
 ![](../Images/Array/array%20declearation.png)
+
+
+## Create an Array
+To create an array, you can use either a fixed size or dynamic size. In this example, we will demonstrate how to declare and initialize an array
+![](../Images/Array/creating%20array.png)
+![](../Images/Array/creating%20an%20array.png)

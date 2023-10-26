@@ -28,6 +28,7 @@ This is because if you create an array by directly initializing its values, the 
 
 ### Two-Dimensional
  Two-dimensional array type are arrays that contain arrays of elements. These are also referred to as matrix arrays since they can be thought of as a grid that lays out the elements into rows and columns. Each element within the two-dimensional array can be accessed individually by its row and column location. This array type is useful for storing data such as tables or pictures, where each element may have multiple associated values.
+ 
 ![](../Images/Array/two%20dim%20array.png)
 
 ### Multi-Dimensional
@@ -44,7 +45,7 @@ This is because if you create an array by directly initializing its values, the 
  Insertion is the process of adding new elements into an existing array. This can be done by providing an index for where the insertion should occur and then shifting other elements in the array to make space for the insertion.
 
 ### 3.Deletion
-#####existing array. After deleting an element, all other elements in the array must be shifted to fill any gaps left from deletion.
+existing array. After deleting an element, all other elements in the array must be shifted to fill any gaps left from deletion.
 
 ### 4.Searching
  Looking for something specific? Searching is the answer. It's a process of identifying an element from within an array by comparing it to your desired value until you find a match. There are two distinct types of searches: linear and binary search techniques, both offering varying degrees of efficiency when used correctly. Linear search compares each element one after another until a match is found or all elements have been searched.

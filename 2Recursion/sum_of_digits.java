@@ -3,7 +3,7 @@ public class sum_of_digits {
     {
         sum_of_digits recursion = new sum_of_digits();
 
-        var rec = recursion.sod(99);
+        var rec = recursion.sod(22125);
         System.out.println(rec);
 
     }

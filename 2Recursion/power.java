@@ -1,7 +1,7 @@
 public class power {
     public static void main(String []args){
         power recursion = new power();
-        var rec = recursion.pow(4,2);
+        var rec = recursion.pow(4,3);
         System.out.println(rec);
 
 

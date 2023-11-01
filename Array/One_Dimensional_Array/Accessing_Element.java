@@ -1,49 +1,38 @@
-public class Traversal_Array {
+package One_Dimensional_Array;
+public class Accessing_Element {
+    
     public static void main(String []args){
         
 
         // ********************  Insertion in Array ***************************************
-        Traversal_Array iin = new Traversal_Array(10);
-        System.out.println("************* Array Insertion ****************************");
+        Accessing_Element iin = new Accessing_Element(10);
+
         iin.insert(0,0);
         iin.insert(3,45);
         iin.insert(2,8);
         iin.insert(1,88);
         iin.insert(0,23);
         iin.insert(13,88);
-        System.out.println("************* Array Insertion End****************************");
-
-
-        
         // ********************  Insertion in Array End ***************************************
         
-        // ********************  Accessing Element ***************************************
-        System.out.println("************* Accessing Element ****************************");
+        // ******************** Accessing Element  ***************************************
+        
         var firstElement = iin.arr[0];
         System.out.println(firstElement);
-        
         var thirdElement = iin.arr[1];
         System.out.println(thirdElement);
         var secondElement = iin.arr[2];
         System.out.println(secondElement);
-        
-        System.out.println("************* Accessing Element End****************************");
-   
+
         
         // ********************  Accessing Element End***************************************  
 
-
-        // ************* Array Traversal ****************************
-        System.out.println("************* Array Traversal ****************************");
-        iin.traverseArray();
-        System.out.println("************* Array Traversal End****************************");
-        // ************* Array Traversal End****************************
 
     }
 
     // ********************  Insertion in Array ***************************************
     int arr[] = null;
-    public Traversal_Array(int sizeOfArray){
+    public Accessing_Element(int sizeOfArray){
         arr = new int[sizeOfArray];
         for(int i=0; i<arr.length; i++){
             arr[i] = Integer.MIN_VALUE;
@@ -69,21 +58,5 @@ public class Traversal_Array {
         }
     }
     // ******************** Insertion in Array End ***********************************8
-    
-
-    // ************* Array Traversal ****************************
-    public void traverseArray(){
-        try{
-            for (int i=0; i<arr.length; i++)
-            {
-                System.out.println(arr[i]);
-            }
-        }
-        catch(Exception e)
-        {
-            System.out.println("Array no longer exists!");
-        }
-    }
-    // ************* Array Traversal End****************************
     
 }

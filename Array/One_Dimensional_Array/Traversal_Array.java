@@ -1,10 +1,10 @@
-public class Search_Array {
-
+package One_Dimensional_Array;
+public class Traversal_Array {
     public static void main(String []args){
         
 
         // ********************  Insertion in Array ***************************************
-        Search_Array iin = new Search_Array(10);
+        Traversal_Array iin = new Traversal_Array(10);
         System.out.println("************* Array Insertion ****************************");
         iin.insert(0,0);
         iin.insert(3,45);
@@ -35,29 +35,16 @@ public class Search_Array {
 
 
         // ************* Array Traversal ****************************
-
         System.out.println("************* Array Traversal ****************************");
         iin.traverseArray();
         System.out.println("************* Array Traversal End****************************");
-     
         // ************* Array Traversal End****************************
-
-        // ************* Array Search Elemnet ***************************
-
-        System.out.println("************* Array Search ****************************");
-        iin.SearchInArray(20);
-        iin.SearchInArray(8);
-        System.out.println("************* Array Search End****************************");
-
-
-
-        // ************* Array Search Elemnt  End****************************
 
     }
 
     // ********************  Insertion in Array ***************************************
     int arr[] = null;
-    public Search_Array(int sizeOfArray){
+    public Traversal_Array(int sizeOfArray){
         arr = new int[sizeOfArray];
         for(int i=0; i<arr.length; i++){
             arr[i] = Integer.MIN_VALUE;
@@ -99,21 +86,5 @@ public class Search_Array {
         }
     }
     // ************* Array Traversal End****************************
-
-    // ************* Array Search Elemnet ***************************
-    public void SearchInArray(int valueToSearch){
-        for(int i=0; i<arr.length; i++)
-        {
-            if(arr[i] == valueToSearch){
-               System.out.println("Value is found at the index of "+ i);
-               return;
-            }
-        }
-         System.out.println(valueToSearch + " is not found in the Array");
-    }
-
-    // ************* Array Search Elemnt  End****************************
-
-
     
 }

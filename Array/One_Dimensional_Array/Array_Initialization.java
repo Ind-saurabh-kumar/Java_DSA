@@ -1,3 +1,4 @@
+package One_Dimensional_Array;
 import java.util.Arrays;
 class Array_Initialization{
     public static void main(String[] args){

@@ -91,5 +91,3 @@ The most common mistakes when using arrays include:
 
 ## Create an Array
 To create an array, you can use either a fixed size or dynamic size. In this example, we will demonstrate how to declare and initialize an array
-![](../Images/Array/creating%20array.png)
-![](../Images/Array/creating%20an%20array.png)

@@ -9,6 +9,7 @@ public class Insertion_in_Array {
         iin.insert(1,88);
         iin.insert(0,23);
         iin.insert(13,88);
+        iin.insert(4,65);
         
         
         

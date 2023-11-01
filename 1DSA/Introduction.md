@@ -75,5 +75,6 @@ A heap is a tree-based structure in which each parent node's associated key valu
 ## What is an Algorithm?
 An algorithm is a process or a set of rules required to perform calculations or some other problem-solving operations especially by a computer. The formal definition of an algorithm is that it contains the finite set of instructions which are being carried in a specific order to perform the specific task. It is not the complete program or code; it is just a solution (logic) of a problem, which can be represented either as an informal description using a Flowchart or Pseudocode.
 
-![](../Images/1DSA/types_of_algo.png)
+
+
 

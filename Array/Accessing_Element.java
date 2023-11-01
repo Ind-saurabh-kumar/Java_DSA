@@ -14,12 +14,15 @@ public class Accessing_Element {
         iin.insert(13,88);
         // ********************  Insertion in Array End ***************************************
         
-        // ********************  Accessing Element ***************************************
+        // ******************** Accessing Element  ***************************************
         
         var firstElement = iin.arr[0];
         System.out.println(firstElement);
         var thirdElement = iin.arr[1];
         System.out.println(thirdElement);
+        var secondElement = iin.arr[2];
+        System.out.println(secondElement);
+
         
         // ********************  Accessing Element End***************************************  
 

@@ -21,7 +21,6 @@ public class Accessing_Element {
         var thirdElement = iin.arr[1];
         System.out.println(thirdElement);
         
-
         // ********************  Accessing Element End***************************************  
 
 

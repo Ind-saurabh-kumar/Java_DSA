@@ -21,8 +21,11 @@ public class Traversal_Array {
         System.out.println("************* Accessing Element ****************************");
         var firstElement = iin.arr[0];
         System.out.println(firstElement);
+        
         var thirdElement = iin.arr[1];
         System.out.println(thirdElement);
+        var secondElement = iin.arr[2];
+        System.out.println(secondElement);
         
         System.out.println("************* Accessing Element End****************************");
    
